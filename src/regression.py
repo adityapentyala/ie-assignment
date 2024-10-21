@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from statsmodels.api import OLS, add_constant
 
-def create_regression_data_OLS(df, drop=[], dummies=False, ratios=False):
+def create_regression_data_OLS(df, drop=[]):
     X = df[[
 
     ]]
